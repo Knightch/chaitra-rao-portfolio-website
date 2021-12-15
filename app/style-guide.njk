@@ -1,0 +1,189 @@
+  {% set page_class = style-guide %}
+  {% extends "template.njk" %}
+  {% block main %}
+
+  <!-- scroll-progress & goto-top -->
+  {% include "_scrollProgress.njk"%}}
+  <!-- start of navigation -->
+  {% include "_header.njk"%}
+  <!-- end of navigation -->
+
+<!-- start of page-header -->
+<section class="page-header">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="my-0 my-lg-5">
+          <p class="mb-3 font-weight-500 has-anim fade">Typography</p>
+          <h2 class="text-white font-weight-500 has-anim fade anim-delay-1">Style Guide 👋</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of page-header -->
+
+<!-- start of typography -->
+<section class="section contact-us bg-white">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 mt-5 mt-lg-0">
+        <div class="content">
+          <h2 class="h5 text-muted">Text styles</h2>
+          <h1>Heading 1</h1>
+          <h2>Heading 2</h2>
+          <h3>Heading 3</h3>
+          <h4>Heading 4</h4>
+          <h5>Heading 5</h5>
+          <h6>Heading 6</h6>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <hr>
+      </div>
+
+      <div class="col-lg-10">
+        <div class="content">
+          <h2 class="h5 text-muted">Typeface</h2>
+          <h3 class="font-primary">Space Grotesk (Google Font)</h3>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <hr>
+      </div>
+
+      <div class="col-lg-10">
+        <div class="content">
+          <h2 class="h5 text-muted">Paragraph</h2>
+          <p>Lorem ipsum dolor sit amet, cohnsectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis sed interdum lacus.</p>
+          <p>pretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo. Malesuada purus, lacus, at aliquam suspendisse tempus. Quis tempus amet, velit nascetur sollicitudin.</p>
+          <h2 class="h5 text-muted">List</h2>
+          <ul>
+            <li>List item 01</li>
+            <li>List item 02</li>
+            <li>List item 03</li>
+          </ul>
+          <ol>
+            <li>List item 01</li>
+            <li>List item 02</li>
+            <li>List item 03</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="col-12 mt-4">
+        <hr>
+      </div>
+
+      <div class="col-lg-10">
+        <div class="content">
+          <h2 class="h5 text-muted">Buttons &amp; Links</h2>
+        </div>
+
+        <a class="btn btn-dark m-1" href="#!" data-text="Button Dark"><span>Button Dark</span></a>
+        <a class="btn btn-black m-1" href="#!" data-text="Button Black"><span>Button Black</span></a>
+        <a class="btn btn-light m-1" href="#!" data-text="Button Light"><span>Button Light</span></a>
+        <span class="p-3 bg-dark d-inline-block m-1">
+          <a class="btn btn-white" href="#!" data-text="Button White"><span>Button White</span></a>
+        </span>
+
+        <br>
+
+        <span class="p-3 bg-dark d-inline-block m-1">
+          <a class="line-link mx-2 my-1" href="#!">Line Link Primary</a>
+          
+          <a class="line-link text-white mx-2 my-1" href="#!">Line Link White</a>
+          
+          <a href="#!" class="line-link mx-2 my-1">Line Link with Icon <svg class="arrow-up-right" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a>
+        </span>
+        <a class="line-link text-dark m-1 mx-2" href="#!">Line Link Dark</a>
+
+        <br>
+
+        <a class="btn-circle-white m-1" href="#!">+</a>
+
+        <span class="p-3 bg-dark d-inline-block m-1">
+          <a class="btn-circle-black" href="#!">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
+          </a>
+        </span>
+
+
+
+      </div>
+
+      <div class="col-12 mt-4">
+        <hr>
+      </div>
+
+      <div class="col-lg-10 mt-4">
+        <h5 class="text-dark mb-2">Accordion</h5>
+        <div class="accordion">
+          <div class="card">
+            <div class="card-header border-bottom-0 p-0" id="q1">
+              <a class="d-flex justify-content-between font-w-600" data-toggle="collapse" href="#faq1" role="button" aria-expanded="false" aria-controls="faq1">Isn’t it expensive?</a>
+            </div>
+            <div id="faq1" class="collapse" aria-labelledby="q1">
+              <div class="card-body content">
+                <p>Compared to the $150 that you could pay for a logo from a non-professional freelance designer on Fiverr, yes it is.</p>
+                <p>It’s important to stand out as a brand to be able to position yourself as a premium product or a service. Getting a strong brand identity gives you the opportunity to be taken seriously by large organizations, builds trust, and conveys stability. It shows commitment and scale that is directly reflected by the user.</p>
+                <p>No matter how great of a product you have, the brand identity can be the component that will either push away the client or sell your product. With our experience as creatives, we take all these things in mind, research your professional field, and deliver a high-quality, premium brand identity that will be a perfect starting point for your company.</p>
+              </div>
+            </div>
+          </div>
+          <!-- end of faq item -->
+
+          <div class="card">
+            <div class="card-header border-bottom-0 p-0" id="q2">
+              <a class="d-flex justify-content-between font-w-600" data-toggle="collapse" href="#faq2" role="button" aria-expanded="false" aria-controls="faq2">What if I don't like any of the proposed design directions?</a>
+            </div>
+            <div id="faq2" class="collapse" aria-labelledby="q2">
+              <div class="card-body content">
+                <p>If such a rare case happens there are two options:</p>                  
+
+                <p>A. Continue work with us within a new, extended timeframe and additional budget of €600, which will guarantee you at least two more logo directions.</p>                
+
+                <p>B. Cancel the project and not pay the second instalment - the remaining 50% of the payment. This way you won’t be able to use any of the design assets we have already created.</p>                
+                </ol>
+              </div>
+            </div>
+          </div>
+          <!-- end of faq item -->
+
+          <div class="card">
+            <div class="card-header border-bottom-0 p-0" id="q3">
+              <a class="d-flex justify-content-between font-w-600" data-toggle="collapse" href="#faq3" role="button" aria-expanded="false" aria-controls="faq3">How to download an item?</a>
+            </div>
+            <div id="faq3" class="collapse" aria-labelledby="q3">
+              <div class="card-body content">
+                <p>Once you've purchased your items, we recommend that you download them immediately as <a href="#!">items may be removed</a> from Envato Market from time to time.</p>
+                <p>To download your item:</p>
+                <ol>
+                  <li>Hover the mouse over your username at the top of the screen and click 'Downloads’ from the drop
+                    down menu.</li>
+                  <li>Click the 'Download' button next to the item.</li>
+                  <li>Click ‘Main File(s)’ which contains all source files.</li>
+                  <li>Click ‘Licence Certificate and Purchase Code’ for licence information only.</li>
+                </ol>
+                <div class="border px-4 py-3">If you haven’t already confirmed your email address, please check your inbox, or resend the email via the link in your download page.</div>
+              </div>
+            </div>
+          </div>
+          <!-- end of faq item -->
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+<!-- end of typography -->
+
+<!-- start of footer -->
+
+  {% include "_footer.njk" %}
+  
+  <!-- end of footer -->
+  {% endblock %}

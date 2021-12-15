@@ -1,0 +1,143 @@
+  {% set page_class = portfolio %}
+  {% extends "template.njk" %}
+  {% block main %}
+
+  <!-- scroll-progress & goto-top -->
+  {% include "_scrollProgress.njk"%}}
+  <!-- start of navigation -->
+  {% include "_header.njk"%}
+  <!-- end of navigation -->
+<!-- start of page-header -->
+<section class="page-header">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="my-0 my-lg-5">
+          <p class="mb-3 font-weight-500 has-anim fade">Work we do</p>
+          <h2 class="text-white font-weight-500 has-anim fade anim-delay-1">Our Portfolio<span class="text-primary">.</span></h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of page-header -->
+
+<!-- start of portfolio -->
+<section class="section portfolio-masonry bg-white">
+  <div class="container">
+    <div class="row gap-lg mesonaryInit">
+      <div class="portfolio-item col-md-6 has-anim">
+        <div class="card portfolio-card card-overlay card-hover-zoom">
+          <span class="card-img">
+            <img class="img-fluid" src="image/portfolio/masonry/01.jpg" alt="Portfolio Thumbnail">
+            <span class="img-overlay" style="background-color:#1F627A"></span>
+          </span>
+          <div class="card-img-overlay">
+            <div class="block overflow-hidden">
+              <span class="card-subtitle mb-2"><a href="#!">Art</a></span>
+              <h3 class="card-title mb-0"><a href="portfolio-single.html">Señorita</a></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item col-md-6 has-anim">
+        <div class="card portfolio-card card-overlay card-hover-zoom">
+          <span class="card-img">
+            <img class="img-fluid" src="image/portfolio/masonry/02.jpg" alt="Portfolio Thumbnail">
+            <span class="img-overlay" style="background-color:#0E268A"></span>
+          </span>
+          <div class="card-img-overlay">
+            <div class="block overflow-hidden">
+              <span class="card-subtitle mb-2"><a href="#!">Design</a></span>
+              <h3 class="card-title mb-0"><a href="portfolio-single.html">F.A M.T</a></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item col-md-6 has-anim">
+        <div class="card portfolio-card card-overlay card-hover-zoom">
+          <span class="card-img">
+            <img class="img-fluid" src="image/portfolio/masonry/03.jpg" alt="Portfolio Thumbnail">
+            <span class="img-overlay" style="background-color:#D83013"></span>
+          </span>
+          <div class="card-img-overlay">
+            <div class="block overflow-hidden">
+              <span class="card-subtitle mb-2"><a href="#!">Branding</a></span>
+              <h3 class="card-title mb-0"><a href="portfolio-single.html">Spearmint</a></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item col-md-6 has-anim">
+        <div class="card portfolio-card card-overlay card-hover-zoom">
+          <span class="card-img">
+            <img class="img-fluid" src="image/portfolio/masonry/04.jpg" alt="Portfolio Thumbnail">
+            <span class="img-overlay" style="background-color:#985F34"></span>
+          </span>
+          <div class="card-img-overlay">
+            <div class="block overflow-hidden">
+              <span class="card-subtitle mb-2"><a href="#!">Development</a></span>
+              <h3 class="card-title mb-0"><a href="portfolio-single.html">Cinnamon</a></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item col-md-6 has-anim">
+        <div class="card portfolio-card card-overlay card-hover-zoom">
+          <span class="card-img">
+            <img class="img-fluid" src="image/portfolio/masonry/05.jpg" alt="Portfolio Thumbnail">
+            <span class="img-overlay" style="background-color:#B10101"></span>
+          </span>
+          <div class="card-img-overlay">
+            <div class="block overflow-hidden">
+              <span class="card-subtitle mb-2"><a href="#!">Branding</a></span>
+              <h3 class="card-title mb-0"><a href="portfolio-single.html">Cocacola</a></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item col-md-6 has-anim">
+        <div class="card portfolio-card card-overlay card-hover-zoom">
+          <span class="card-img">
+            <img class="img-fluid" src="image/portfolio/masonry/06.jpg" alt="Portfolio Thumbnail">
+            <span class="img-overlay" style="background-color:#5A6422"></span>
+          </span>
+          <div class="card-img-overlay">
+            <div class="block overflow-hidden">
+              <span class="card-subtitle mb-2"><a href="#!">Branding</a></span>
+              <h3 class="card-title mb-0"><a href="portfolio-single.html">Pear</a></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item col-md-6 has-anim">
+        <div class="card portfolio-card card-overlay card-hover-zoom">
+          <span class="card-img">
+            <img class="img-fluid" src="image/portfolio/masonry/07.jpg" alt="Portfolio Thumbnail">
+            <span class="img-overlay" style="background-color:#E08100"></span>
+          </span>
+          <div class="card-img-overlay">
+            <div class="block overflow-hidden">
+              <span class="card-subtitle mb-2"><a href="#!">Branding</a></span>
+              <h3 class="card-title mb-0"><a href="portfolio-single.html">Hibiscus</a></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center has-anim">
+        <a class="btn btn-black" href="portfolio-grid-3-col.html" data-text="View More"><span>View More</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of portfolio -->
+
+
+<!-- start of footer -->
+
+  {% include "_footer.njk" %}
+  
+  <!-- end of footer -->
+  {% endblock %}
