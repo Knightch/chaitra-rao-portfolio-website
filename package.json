@@ -1,27 +1,15 @@
 {
-  "name": "main-file",
+  "name": "gulp-setup",
   "version": "1.0.0",
-  "description": "Portfolio website",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Knightch/chaitra-rao-portfolio-website.git"
-  },
+  "description": "html-starter",
   "author": "Aman Pandey",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Knightch/chaitra-rao-portfolio-website/issues"
-  },
-  "homepage": "https://github.com/Knightch/chaitra-rao-portfolio-website#readme",
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "del": "^3.0.0",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
-    "gulp-beautify-code": "^2.0.4",
+    "gulp-beautify-code": "^2.0.3",
     "gulp-changed": "^3.2.0",
     "gulp-clean-css": "^4.0.0",
     "gulp-concat": "^2.6.1",
@@ -43,7 +31,6 @@
   },
   "dependencies": {
     "gulp-nunjucks-render": "^2.2.2",
-    "node-sass": "^7.0.0",
     "nunjucks": "^3.2.0"
   }
 }
