@@ -1,7 +1,6 @@
-
-  {% set page_class = contact %}
-  {% extends "template.njk" %}
-  {% block main %}
+{% set page_class = contact %}
+{% extends "template.njk" %}
+{% block main %}
 
   <!-- scroll-progress & goto-top -->
   {% include "_scrollProgress.njk"%}
@@ -9,101 +8,109 @@
   {% include "_header.njk"%}
   <!-- end of navigation -->
 
-<!-- start of page-header -->
-<section class="page-header">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-10">
-        <div class="my-0 my-lg-5">
-          <p class="mb-3 font-weight-500 has-anim fade">Contact Us</p>
-          <h2 class="text-dark font-weight-500 has-anim fade anim-delay-1">Interested in working with me, <br> I’d love to hear from you  👋</h2>
+  <!-- start of page-header -->
+  <section class="page-header">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="my-0 my-lg-5">
+            <p class="mb-3 font-weight-500 has-anim fade">Contact</p>
+            <h2 class="text-dark font-weight-500 has-anim fade anim-delay-1">Interested in working with me, <br> I’d love to hear from you  👋</h2>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- end of page-header -->
+  </section>
+  <!-- end of page-header -->
 
-<!-- start of contact us -->
-<section class="section contact-us bg-white">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-xl-11">
-        <div class="block">
-          <div class="row justify-content-center">
-            <div class="col-lg-5 mb-5 mb-lg-0">
-              <div class="pr-0 pr-lg-4">
-                <h4 class="text-dark mb-3 has-anim fade">Describe Your Project</h4>
-                <p class="has-anim fade">Leave us your contact info, we’ll get back to you within 24 hours. Stay up to date with our newest collections, latest deals and special offers!</p>
-      
-                <div class="mt-4 pt-2 has-anim fade anim-delay-1">
-                  <p class="text-uppercase small font-weight-500 mb-1">Email us:</p>
-                  <p><a class="line-link text-dark" href="mailto:contact@abildon.io">contact@abildon.io</a></p>
-                </div>
-                <div class="mt-4 has-anim fade anim-delay-2">
-                  <p class="text-uppercase small font-weight-500 mb-1">Call us:</p>
-                  <p><a class="line-link text-dark" href="tel:0722232424">+072 223 2424</a></p>
-                </div>
-                <div class="mt-4 has-anim fade anim-delay-3">
-                  <p class="text-uppercase small font-weight-500 mb-1">Address:</p>
-                  <p>Qvid city, 02000</p>
-                  <p>16 Nikola Y. Vaptsarov Blvd,</p>
+  <!-- start of contact us -->
+  <section class="section contact-us bg-white">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-11">
+          <div class="block">
+            <div class="row justify-content-center">
+              <div class="col-lg-5 mb-5 mb-lg-0">
+                <div class="pr-0 pr-lg-4">
+                  <h4 class="text-dark mb-3 has-anim fade">Simply fill out this form</h4>
+                  <p class="has-anim fade">Please fill out the details below and I’ll be in touch shortly!</p>
+
+                  <div class="mt-4 pt-2 has-anim fade anim-delay-1">
+                    <p class="text-uppercase small font-weight-500 mb-1">Email us:</p>
+                    <p>
+                      <a class="line-link text-dark" href="mailto:hello@chaitrarao.com">hello@chaitrarao.com</a>
+                    </p>
+                  </div>
+                  <div class="mt-4 has-anim fade anim-delay-2">
+                    <p class="text-uppercase small font-weight-500 mb-1">Call us:</p>
+                    <p>
+                      <a class="line-link text-dark" href="tel:0722232424">+91 9901057180</a>
+                    </p>
+                  </div>
+                  <div class="mt-4 has-anim fade anim-delay-3">
+                    <p class="text-uppercase small font-weight-500 mb-1">Address:</p>
+                    <p>Based In Bangalore</p>
+                    <p>IND LT : <script>
+                        document.write(new Date().toDateString())
+                      </script>
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-7">
-              <form action="#">
-                <div class="row gh-1 gv-2">
-                  <div class="col-12 col-md-6 has-anim fade">
-                    <input type="name" class="form-control" placeholder="Your Name *">
+              <div class="col-lg-7">
+                <form action="#">
+                  <div class="row gh-1 gv-2">
+                    <div class="col-12 col-md-6 has-anim fade">
+                      <input type="name" class="form-control" placeholder="Your Name *">
+                    </div>
+                    <div class="col-12 col-md-6 has-anim fade">
+                      <input type="email" class="form-control" placeholder="Your Email *">
+                    </div>
+                    <div class="col-12 col-md-6 has-anim fade">
+                      <input type="phone" class="form-control" placeholder="Your Phone *">
+                    </div>
+                    <div class="col-12 col-md-6 has-anim fade">
+                      <input type="company" class="form-control" placeholder="Company">
+                    </div>
+                    <div class="col-12 col-md-6 has-anim fade">
+                      <select class="form-control custom-control custom-select">
+                        <option selected="">Type of Project</option>
+                        <option>Web/App UI Project</option>
+                        <option>Creative Branding</option>
+                        <option>Wordpress Website</option>
+                        <option>Static Website</option>
+                      </select>
+                    </div>
+                    <div class="col-12 col-md-6 has-anim fade">
+                      <select class="form-control custom-control custom-select">
+                        <option selected="">Your Budget</option>
+                        <option>&lt; 10,000</option>
+                        <option>10k-20k</option>
+                        <option>20k-30k</option>
+                        <option>&gt; 30,000</option>
+                      </select>
+                    </div>
+                    <div class="col-12 has-anim fade">
+                      <textarea class="form-control" rows="1" placeholder="Message *"></textarea>
+                    </div>
+                    <div class="col-12 has-anim fade">
+                      <button class="btn btn-black" type="button" name="button" data-text="Submit">
+                        <span>Submit</span></button>
+                    </div>
                   </div>
-                  <div class="col-12 col-md-6 has-anim fade">
-                    <input type="email" class="form-control" placeholder="Your Email *">
-                  </div>
-                  <div class="col-12 col-md-6 has-anim fade">
-                    <input type="phone" class="form-control" placeholder="Your Phone *">
-                  </div>
-                  <div class="col-12 col-md-6 has-anim fade">
-                    <input type="company" class="form-control" placeholder="Company">
-                  </div>
-                  <div class="col-12 col-md-6 has-anim fade">
-                    <select class="form-control custom-control custom-select">
-                      <option selected="">Type of Project</option>
-                      <option>Web/App UI Project</option>
-                      <option>Creative Branding</option>
-                      <option>Wordpress Website</option>
-                      <option>Static Website</option>
-                    </select>
-                  </div>
-                  <div class="col-12 col-md-6 has-anim fade">
-                    <select class="form-control custom-control custom-select">
-                      <option selected="">Your Budget</option>
-                      <option>&lt; 10,000</option>
-                      <option>10k-20k</option>
-                      <option>20k-30k</option>
-                      <option>&gt; 30,000</option>
-                    </select>
-                  </div>
-                  <div class="col-12 has-anim fade">
-                    <textarea class="form-control" rows="1" placeholder="Message *"></textarea>
-                  </div>
-                  <div class="col-12 has-anim fade">
-                    <button class="btn btn-black" type="button" name="button" data-text="Submit"><span>Submit</span></button>
-                  </div>
-                </div>
-              </form>
+                </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- end of contact us -->
+  </section>
+  <!-- end of contact us -->
 
-<!-- start of footer -->
+  <!-- start of footer -->
 
   {% include "_footer.njk" %}
-  
+
   <!-- end of footer -->
-  {% endblock %}
+{% endblock %}

@@ -19,7 +19,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: #000;
-  background-color: #F0F3F7;
+  background-color: #f0f3f7;
   line-height: 1.6;
 }
 
@@ -123,7 +123,7 @@ h6,
 }
 
 .line-link.text-dark::before, .content h1.line-link:not(.text-white)::before, .content .line-link.h1:not(.text-white)::before, .content h2.line-link:not(.text-white)::before, .content .line-link.h2:not(.text-white)::before, .content h3.line-link:not(.text-white)::before, .content .line-link.h3:not(.text-white)::before, .content h4.line-link:not(.text-white)::before, .content .line-link.h4:not(.text-white)::before, .content h5.line-link:not(.text-white)::before, .content .line-link.h5:not(.text-white)::before, .content h6.line-link:not(.text-white)::before, .content .line-link.h6:not(.text-white)::before, .line-link.text-dark::after, .content h1.line-link:not(.text-white)::after, .content .line-link.h1:not(.text-white)::after, .content h2.line-link:not(.text-white)::after, .content .line-link.h2:not(.text-white)::after, .content h3.line-link:not(.text-white)::after, .content .line-link.h3:not(.text-white)::after, .content h4.line-link:not(.text-white)::after, .content .line-link.h4:not(.text-white)::after, .content h5.line-link:not(.text-white)::after, .content .line-link.h5:not(.text-white)::after, .content h6.line-link:not(.text-white)::after, .content .line-link.h6:not(.text-white)::after {
-  background-color: #F0F3F7;
+  background-color: #f0f3f7;
 }
 
 .line-link.text-dark::before, .content h1.line-link:not(.text-white)::before, .content .line-link.h1:not(.text-white)::before, .content h2.line-link:not(.text-white)::before, .content .line-link.h2:not(.text-white)::before, .content h3.line-link:not(.text-white)::before, .content .line-link.h3:not(.text-white)::before, .content h4.line-link:not(.text-white)::before, .content .line-link.h4:not(.text-white)::before, .content h5.line-link:not(.text-white)::before, .content .line-link.h5:not(.text-white)::before, .content h6.line-link:not(.text-white)::before, .content .line-link.h6:not(.text-white)::before {
@@ -532,25 +532,25 @@ textarea.form-control {
 }
 
 .tooltip .tooltip-inner {
-  background-color: #F0F3F7;
+  background-color: #f0f3f7;
   border-radius: 3px;
   padding: 8px 14px;
 }
 
 .bs-tooltip-top .arrow::before, .bs-tooltip-auto[x-placement^="top"] .arrow::before {
-  border-top-color: #F0F3F7 !important;
+  border-top-color: #f0f3f7 !important;
 }
 
 .bs-tooltip-right .arrow::before, .bs-tooltip-auto[x-placement^="right"] .arrow::before {
-  border-right-color: #F0F3F7 !important;
+  border-right-color: #f0f3f7 !important;
 }
 
 .bs-tooltip-bottom .arrow::before, .bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
-  border-bottom-color: #F0F3F7 !important;
+  border-bottom-color: #f0f3f7 !important;
 }
 
 .bs-tooltip-left .arrow::before, .bs-tooltip-auto[x-placement^="left"] .arrow::before {
-  border-left-color: #F0F3F7 !important;
+  border-left-color: #f0f3f7 !important;
 }
 
 .list-inline-item:not(:last-child) {
@@ -594,7 +594,7 @@ a.text-primary:hover {
 }
 
 .text-dark, .content h1:not(.text-white), .content .h1:not(.text-white), .content h2:not(.text-white), .content .h2:not(.text-white), .content h3:not(.text-white), .content .h3:not(.text-white), .content h4:not(.text-white), .content .h4:not(.text-white), .content h5:not(.text-white), .content .h5:not(.text-white), .content h6:not(.text-white), .content .h6:not(.text-white) {
-  color: #F0F3F7;
+  color: #f0f3f7;
 }
 
 a.text-dark:hover, .content a.h1:hover:not(.text-white), .content a.h2:hover:not(.text-white), .content a.h3:hover:not(.text-white), .content a.h4:hover:not(.text-white), .content a.h5:hover:not(.text-white), .content a.h6:hover:not(.text-white) {
@@ -602,7 +602,7 @@ a.text-dark:hover, .content a.h1:hover:not(.text-white), .content a.h2:hover:not
 }
 
 .bg-dark {
-  background-color: #F0F3F7 !important;
+  background-color: #f0f3f7 !important;
 }
 
 .text-light {
@@ -765,7 +765,7 @@ a.text-dark:hover, .content a.h1:hover:not(.text-white), .content a.h2:hover:not
   font-size: 18px;
   padding: 20px 30px;
   padding-right: 65px;
-  background: #F0F3F7;
+  background: #f0f3f7;
   color: #fff;
   position: relative;
 }
@@ -1234,7 +1234,7 @@ a.text-dark:hover, .content a.h1:hover:not(.text-white), .content a.h2:hover:not
 .banner.personal-portfolio .user-image .shape::before {
   content: "\f6bb";
   font-size: 48vw;
-  color: #F0F3F7;
+  color: #f0f3f7;
   line-height: 1;
   font-weight: normal;
   font-family: 'Line Awesome Free';
@@ -1329,7 +1329,7 @@ a.text-dark:hover, .content a.h1:hover:not(.text-white), .content a.h2:hover:not
 
 .blog-card .card-title a {
   display: inline-block;
-  color: #F0F3F7;
+  color: #f0f3f7;
   transition: .2s;
   text-decoration: underline;
   text-decoration-color: transparent;
@@ -1401,6 +1401,14 @@ a.text-dark:hover, .content a.h1:hover:not(.text-white), .content a.h2:hover:not
   max-width: 100%;
 }
 
+footer {
+  background-color: #00122c;
+}
+
+.footer-bottom {
+  background-color: #00122c;
+}
+
 .footer-alt {
   padding: 130px 0;
 }
@@ -1429,7 +1437,7 @@ a.text-dark:hover, .content a.h1:hover:not(.text-white), .content a.h2:hover:not
 
 .footer-link a {
   font-size: 15px;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: underline;
   text-decoration-color: transparent;
   -webkit-text-decoration-color: transparent;
@@ -1437,10 +1445,10 @@ a.text-dark:hover, .content a.h1:hover:not(.text-white), .content a.h2:hover:not
 }
 
 .footer-link a:hover {
-  color: rgba(0, 0, 0, 0.8);
-  text-decoration-color: rgba(0, 0, 0, 0.8);
-  -webkit-text-decoration-color: rgba(0, 0, 0, 0.8);
-  -moz-text-decoration-color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration-color: rgba(255, 255, 255, 0.8);
+  -webkit-text-decoration-color: rgba(255, 255, 255, 0.8);
+  -moz-text-decoration-color: rgba(255, 255, 255, 0.8);
 }
 
 .navbar-brand {
@@ -1511,7 +1519,7 @@ a.text-dark:hover, .content a.h1:hover:not(.text-white), .content a.h2:hover:not
 }
 
 .navbar-light [data-toggle="navbar-menu-close"] {
-  color: #F0F3F7;
+  color: #f0f3f7;
 }
 
 .sidenav-overlay {
@@ -1562,7 +1570,7 @@ a.text-dark:hover, .content a.h1:hover:not(.text-white), .content a.h2:hover:not
   z-index: 9992;
   transition: transform 0.5s cubic-bezier(0.2, 1, 0.2, 1);
   will-change: transform;
-  background-color: #F0F3F7;
+  background-color: #f0f3f7;
 }
 
 .navigation.visible {
@@ -1747,7 +1755,7 @@ a.text-dark:hover, .content a.h1:hover:not(.text-white), .content a.h2:hover:not
     padding: 15px 0;
   }
   .navigation .dropdown-menu {
-    background-color: #F0F3F7;
+    background-color: #f0f3f7;
     border-radius: 0;
   }
   .navigation .dropdown-menu .dropdown-item {
@@ -1799,7 +1807,7 @@ a.text-dark:hover, .content a.h1:hover:not(.text-white), .content a.h2:hover:not
 }
 
 .navigation .navbar-expanded .navbar-actions .social-icons a:hover {
-  color: #F0F3F7 !important;
+  color: #f0f3f7 !important;
   opacity: .7;
 }
 
@@ -1825,7 +1833,7 @@ a.text-dark:hover, .content a.h1:hover:not(.text-white), .content a.h2:hover:not
 }
 
 .navigation .navbar-expanded .dropdown-menu {
-  background-color: #F0F3F7;
+  background-color: #f0f3f7;
   border-radius: 0;
 }
 
@@ -2008,7 +2016,7 @@ a.text-dark:hover, .content a.h1:hover:not(.text-white), .content a.h2:hover:not
 }
 
 .portfolio-carousel-fluid .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
-  background: #F0F3F7;
+  background: #f0f3f7;
 }
 
 .portfolio-carousel-fluid .swipeCarousel-control {
