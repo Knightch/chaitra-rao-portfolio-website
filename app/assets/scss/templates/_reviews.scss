@@ -13,7 +13,7 @@
   }
 
   .review-text {
-    color: $color-dark;
+    color: $black;
   }
   &.review-carousel-light .review-text {
     color: $white;
@@ -52,7 +52,7 @@
         content: "";
         height: 1px;
         width: 20px;
-        background-color: $color-dark;
+        background-color: $black;
         top: 45%;
         right: -13px;
         position: absolute;

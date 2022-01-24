@@ -19,16 +19,16 @@
   }
   a {
     font-size: 15px;
-    color: rgba($white, 0.8);
+    color: rgba($black, 0.8);
     text-decoration: underline;
     text-decoration-color: transparent;
     -webkit-text-decoration-color: transparent;
     -moz-text-decoration-color: transparent;
     &:hover {
-      color: rgba($white, 0.8);
-      text-decoration-color: rgba($white, 0.8);
-      -webkit-text-decoration-color: rgba($white, 0.8);
-      -moz-text-decoration-color: rgba($white, 0.8);
+      color: rgba($black, 0.8);
+      text-decoration-color: rgba($black, 0.8);
+      -webkit-text-decoration-color: rgba($black, 0.8);
+      -moz-text-decoration-color: rgba($black, 0.8);
     }
   }
 }
