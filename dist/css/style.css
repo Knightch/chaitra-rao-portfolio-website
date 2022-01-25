@@ -163,7 +163,7 @@ h6,
   width: 100%;
   right: auto;
   left: 0;
-  transition-delay: .3s;
+  transition-delay: 0.3s;
 }
 
 .btn {
@@ -242,6 +242,18 @@ h6,
   border-color: #fff;
 }
 
+.btn-org {
+  background: #FF6846;
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn-org:active, .btn-org:focus, .btn-org:hover {
+  color: #FF6846;
+  background: #fff;
+  border: 1px solid #FF6846;
+}
+
 .btn-black {
   background: #000;
   color: #fff;
@@ -253,7 +265,8 @@ h6,
   border-color: #000;
 }
 
-.btn-circle-white, .btn-circle-black {
+.btn-circle-white,
+.btn-circle-black {
   height: 90px;
   width: 90px;
   border: 2px solid;
@@ -268,7 +281,8 @@ h6,
 }
 
 @media (max-width: 991px) {
-  .btn-circle-white, .btn-circle-black {
+  .btn-circle-white,
+  .btn-circle-black {
     height: 70px;
     width: 70px;
   }
