@@ -1481,6 +1481,12 @@ footer {
   text-align: left;
 }
 
+@media (max-width: 991px) {
+  .decor-text::after {
+    font-size: 13px;
+  }
+}
+
 .navbar-brand {
   color: #000 !important;
   font-size: 30px;

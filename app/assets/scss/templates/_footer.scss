@@ -54,5 +54,8 @@ footer {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
+    @include desktop{
+      font-size: 13px;
+    }
   }
 }
