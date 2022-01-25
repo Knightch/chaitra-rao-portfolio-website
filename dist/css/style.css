@@ -907,6 +907,10 @@ a.text-dark:hover, .content a.h1:hover:not(.text-white), .content a.h2:hover:not
   z-index: -1;
 }
 
+.contact_subHeading {
+  color: #000 !important;
+}
+
 .contact_heading {
   width: 488px;
   color: #000 !important;
