@@ -36,7 +36,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-secondary;
   font-weight: 700;
   margin: 0;
   line-height: 1.4;
@@ -58,6 +57,7 @@ h1,
 
 h2,
 .h2 {
+  font-family: $font-secondary;
   font-size: $h2;
   @include tablet {
     font-size: $h2-md;
@@ -74,6 +74,7 @@ h3,
 
 h4,
 .h4 {
+  font-family: $font-secondary;
   font-size: $h4;
 }
 

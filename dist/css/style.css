@@ -42,7 +42,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Clearface-Regular";
   font-weight: 700;
   margin: 0;
   line-height: 1.4;
@@ -68,6 +67,7 @@ h1,
 
 h2,
 .h2 {
+  font-family: "Clearface-Regular";
   font-size: 38px;
 }
 
@@ -92,6 +92,7 @@ h3,
 
 h4,
 .h4 {
+  font-family: "Clearface-Regular";
   font-size: 24px;
 }
 
@@ -904,6 +905,21 @@ a.text-dark:hover, .content a.h1:hover:not(.text-white), .content a.h2:hover:not
   top: 0;
   left: 0;
   z-index: -1;
+}
+
+.contact_heading {
+  width: 488px;
+  color: #000 !important;
+}
+
+@media (max-width: 575px) {
+  .contact_heading {
+    width: 301px;
+  }
+}
+
+.contact_body-text {
+  width: 283px;
 }
 
 .team-group-carousel .swiper-container {

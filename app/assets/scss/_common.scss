@@ -499,3 +499,15 @@ a.text-dark:hover {color: $color-primary}
   }
 }
 
+// contact section
+.contact_heading{
+  width: 488px;
+  color: $black !important;
+  @include mobile{
+    width: 301px;
+  }
+}
+.contact_body-text{
+  width: 283px;
+}
+
