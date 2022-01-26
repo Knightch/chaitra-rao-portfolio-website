@@ -1,21 +1,30 @@
-@keyframes progressColor {
-  15% {
-    background: linear-gradient(to left, 15% #fa4d27);
+.sweep-to-right {
+  position: relative;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition: color 1000ms;
+  transition: color 1000ms;
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fa4d27;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    -webkit-transition-operty: transform;
+    transition-property: transform;
+    -webkit-transition: 300ms ease-out;
+    transition: 300ms ease-out;
   }
-  30% {
-    background: linear-gradient(to left, 30% #fa4d27);
-  }
-  50% {
-    background: linear-gradient(to left, 50% #fa4d27);
-  }
-  65% {
-    background: linear-gradient(to left, 65% #fa4d27);
-  }
-  80% {
-    background: linear-gradient(to left, 80% #fa4d27);
-  }
-  100% {
-    background: linear-gradient(to left, 100% #fa4d27);
+  &:hover::before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
   }
 }
 // buttons style
