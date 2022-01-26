@@ -21,7 +21,7 @@ a:focus {
 }
 
 a {
-  transition: .3s ease;
+  transition: 0.3s ease;
   color: $color-primary;
   &:hover {
     color: lighten($color-primary, 10);
@@ -61,7 +61,76 @@ button {
     margin-left: -15px !important;
     margin-right: -15px !important;
   }
-  .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+  .col,
+  .col-1,
+  .col-10,
+  .col-11,
+  .col-12,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-auto,
+  .col-lg,
+  .col-lg-1,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-auto,
+  .col-md,
+  .col-md-1,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-auto,
+  .col-sm,
+  .col-sm-1,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-auto,
+  .col-xl,
+  .col-xl-1,
+  .col-xl-10,
+  .col-xl-11,
+  .col-xl-12,
+  .col-xl-2,
+  .col-xl-3,
+  .col-xl-4,
+  .col-xl-5,
+  .col-xl-6,
+  .col-xl-7,
+  .col-xl-8,
+  .col-xl-9,
+  .col-xl-auto {
     padding-left: 40px;
     padding-right: 40px;
     @include desktop {
@@ -85,28 +154,28 @@ button {
     transform: translateY(0) scale(1);
   }
   &.anim-delay-1 {
-    transition-delay: .1s;
+    transition-delay: 0.1s;
   }
   &.anim-delay-2 {
-    transition-delay: .2s;
+    transition-delay: 0.2s;
   }
   &.anim-delay-3 {
-    transition-delay: .3s;
+    transition-delay: 0.3s;
   }
   &.anim-delay-4 {
-    transition-delay: .4s;
+    transition-delay: 0.4s;
   }
   &.anim-delay-6 {
-    transition-delay: .6s;
+    transition-delay: 0.6s;
   }
   &.anim-delay-7 {
-    transition-delay: .7s;
+    transition-delay: 0.7s;
   }
   &.anim-delay-8 {
-    transition-delay: .8s;
+    transition-delay: 0.8s;
   }
   &.anim-delay-9 {
-    transition-delay: .9s;
+    transition-delay: 0.9s;
   }
   @include tablet {
     transition-delay: 0s !important;
@@ -161,7 +230,7 @@ button {
 
 // swiper-wrapper transition
 .swiper-wrapper {
-  transition-timing-function: cubic-bezier(.165,.84,.44,1) !important;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1) !important;
 }
 
 // form style cutomize
@@ -182,7 +251,9 @@ textarea.form-control {
   padding-top: 15px;
 }
 .custom-select {
-  background: #fff url("data:image/svg+xml;utf8,<svg viewBox='0 0 140 140' width='14' height='14' xmlns='http://www.w3.org/2000/svg'><g><path d='m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z' fill='currentColor'/></g></svg>") no-repeat right 15px center;
+  background: #fff
+    url("data:image/svg+xml;utf8,<svg viewBox='0 0 140 140' width='14' height='14' xmlns='http://www.w3.org/2000/svg'><g><path d='m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z' fill='currentColor'/></g></svg>")
+    no-repeat right 15px center;
 }
 
 // tooltip style cutomize
@@ -190,19 +261,29 @@ textarea.form-control {
   font-family: $font-primary;
   font-size: 13px;
   z-index: 9999;
-  &.show {opacity: 1}
-  .tooltip-inner {background-color: $color-dark; border-radius: 3px; padding: 8px 14px;}
+  &.show {
+    opacity: 1;
+  }
+  .tooltip-inner {
+    background-color: $color-dark;
+    border-radius: 3px;
+    padding: 8px 14px;
+  }
 }
-.bs-tooltip-top .arrow::before, .bs-tooltip-auto[x-placement^="top"] .arrow::before {
+.bs-tooltip-top .arrow::before,
+.bs-tooltip-auto[x-placement^="top"] .arrow::before {
   border-top-color: $color-dark !important;
 }
-.bs-tooltip-right .arrow::before, .bs-tooltip-auto[x-placement^="right"] .arrow::before {
+.bs-tooltip-right .arrow::before,
+.bs-tooltip-auto[x-placement^="right"] .arrow::before {
   border-right-color: $color-dark !important;
 }
-.bs-tooltip-bottom .arrow::before, .bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
+.bs-tooltip-bottom .arrow::before,
+.bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
   border-bottom-color: $color-dark !important;
 }
-.bs-tooltip-left .arrow::before, .bs-tooltip-auto[x-placement^="left"] .arrow::before {
+.bs-tooltip-left .arrow::before,
+.bs-tooltip-auto[x-placement^="left"] .arrow::before {
   border-left-color: $color-dark !important;
 }
 
@@ -215,28 +296,56 @@ textarea.form-control {
   li a {
     font-size: 20px;
   }
-} 
+}
 
 // helper classes
-.line-height-1 {line-height: 1}
+.line-height-1 {
+  line-height: 1;
+}
 
-.font-weight-400 {font-weight: 400}
-.font-weight-500 {font-weight: 500}
-.font-weight-600 {font-weight: 600}
-.font-weight-700 {font-weight: 700}
+.font-weight-400 {
+  font-weight: 400;
+}
+.font-weight-500 {
+  font-weight: 500;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+.font-weight-700 {
+  font-weight: 700;
+}
 
-.text-primary {color: $color-primary !important}
-.bg-primary {background-color: $color-primary !important}
-a.text-primary:hover {color: lighten($color-primary, 10) !important}
+.text-primary {
+  color: $color-primary !important;
+}
+.bg-primary {
+  background-color: $color-primary !important;
+}
+a.text-primary:hover {
+  color: lighten($color-primary, 10) !important;
+}
 
-.text-dark {color: $color-dark}
-a.text-dark:hover {color: $color-primary}
-.bg-dark {background-color: $color-dark !important}
+.text-dark {
+  color: $black;
+}
+a.text-dark:hover {
+  color: $color-primary;
+}
+.bg-dark {
+  background-color: $color-dark !important;
+}
 
-.text-light {color: $color-light !important}
-.bg-light {background-color: $color-light !important}
+.text-light {
+  color: $color-light !important;
+}
+.bg-light {
+  background-color: $color-light !important;
+}
 
-.text-underline {text-decoration: underline}
+.text-underline {
+  text-decoration: underline;
+}
 
 .overflow-initial {
   overflow: initial;
@@ -280,7 +389,7 @@ a.text-dark:hover {color: $color-primary}
   visibility: hidden;
   overflow: hidden;
   transform: translateY(15px);
-  transition: .2s linear;
+  transition: 0.2s linear;
   mix-blend-mode: difference;
 
   @include mobile {
@@ -298,7 +407,7 @@ a.text-dark:hover {color: $color-primary}
   &::before,
   &::after {
     position: absolute;
-    content: '';
+    content: "";
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='451.8' height='451.8' fill='%23ffffff'%3E%3Cpath d='M248.3 106.4l194.3 194.3a31.6 31.6 0 11-44.8 44.7L226 173.5 54 345.5a31.6 31.6 0 01-44.7-44.8l194.3-194.3a31.5 31.5 0 0144.7 0z'/%3E%3C/svg%3E");
     left: 7%;
     top: 7%;
@@ -309,23 +418,23 @@ a.text-dark:hover {color: $color-primary}
     background-position: center;
     background-size: 13px;
     border-radius: 50%;
-    transition: .2s;
+    transition: 0.2s;
     mix-blend-mode: difference;
   }
   &::before {
     background-color: $white;
     background-image: none;
-    transform: scale(.5);
+    transform: scale(0.5);
     opacity: 0;
   }
-  svg path { 
-    fill: none; 
+  svg path {
+    fill: none;
   }
   svg.progress-circle path {
     stroke: $white;
     mix-blend-mode: difference;
     stroke-width: 4;
-    box-sizing:border-box;
+    box-sizing: border-box;
     transition: all 200ms linear;
   }
   &:hover {
@@ -364,7 +473,7 @@ a.text-dark:hover {color: $color-primary}
     font-size: 17px;
     padding: 25px;
     background-color: #fbfdff;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(0, 0, 0, 0.125);
     border-top: 0;
   }
   .card-header a {
@@ -375,10 +484,10 @@ a.text-dark:hover {color: $color-primary}
     color: $white;
     position: relative;
     &::after {
-      font-family: 'Line Awesome Free';
+      font-family: "Line Awesome Free";
       font-weight: 900;
-      content:"\f067";
-      transition: 0.3s cubic-bezier(.7,0,.3,1);
+      content: "\f067";
+      transition: 0.3s cubic-bezier(0.7, 0, 0.3, 1);
       position: absolute;
       right: 30px;
       top: 50%;
@@ -395,45 +504,65 @@ a.text-dark:hover {color: $color-primary}
 
 // content
 .content {
-	* {
-		word-break: break-word;
-		overflow-wrap: break-word;
+  * {
+    word-break: break-word;
+    overflow-wrap: break-word;
     &:not(:last-child) {
       margin-bottom: 15px !important;
     }
-	}
-  h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  }
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3,
+  h4,
+  .h4,
+  h5,
+  .h5,
+  h6,
+  .h6 {
     margin-bottom: 20px;
     margin-top: 20px;
-    &:not(.text-white){
+    &:not(.text-white) {
       @extend .text-dark;
     }
     @extend .font-weight-600;
   }
   &.content-dark {
-    h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-      &:not(.text-white){
+    h2,
+    .h2,
+    h3,
+    .h3,
+    h4,
+    .h4,
+    h5,
+    .h5,
+    h6,
+    .h6 {
+      &:not(.text-white) {
         color: #ddd !important;
       }
     }
   }
 
-	img {
-		max-width: 100%;
-	}
+  img {
+    max-width: 100%;
+  }
 
-	a:not(.btn) {
-		color: lighten($black, 20.00);
+  a:not(.btn) {
+    color: lighten($black, 20);
     text-decoration: underline;
 
-		&:hover {
-			color: $black;
+    &:hover {
+      color: $black;
       text-decoration: none;
-		}
-	}
+    }
+  }
   &.content-dark {
     a:not(.btn) {
-      color: lighten($white, 20.00);
+      color: lighten($white, 20);
       text-decoration: underline;
 
       &:hover {
@@ -443,45 +572,44 @@ a.text-dark:hover {color: $color-primary}
     }
   }
 
-	ol{
-		margin-left: 0;
-		padding-left: 0;
-    list-style-position: inside;
-		li:not(:last-child) {
-			margin-bottom: 7px !important;
-    }
-	}
-
-	ul {
+  ol {
+    margin-left: 0;
     padding-left: 0;
-		li {
-			position: relative;
-			padding-left: 18px;
-			list-style-type: none;
+    list-style-position: inside;
+    li:not(:last-child) {
+      margin-bottom: 7px !important;
+    }
+  }
+
+  ul {
+    padding-left: 0;
+    li {
+      position: relative;
+      padding-left: 18px;
+      list-style-type: none;
       &:not(:last-child) {
         margin-bottom: 7px !important;
       }
 
-			&::after {
-				position: absolute;
-				content: "";
-				height: 7px;
-				width: 7px;
-				background-color: $black;
-        opacity: .5;
-				left: 0;
-				top: 10px;
+      &::after {
+        position: absolute;
+        content: "";
+        height: 7px;
+        width: 7px;
+        background-color: $black;
+        opacity: 0.5;
+        left: 0;
+        top: 10px;
         transform: rotate(-45deg);
-			}
-		}
-	}
+      }
+    }
+  }
   &.content-dark {
     ul li::after {
       background-color: $white;
     }
   }
 }
-
 
 // fade-slider
 .fade-slider {
@@ -500,17 +628,19 @@ a.text-dark:hover {color: $color-primary}
 }
 
 // contact section
-.contact_subHeading{
+.contact_subHeading {
   color: $black !important;
 }
-.contact_heading{
+.contact_heading {
   width: 488px;
   color: $black !important;
-  @include mobile{
+  @include mobile {
     width: 301px;
   }
 }
-.contact_body-text{
+.contact_body-text {
   width: 283px;
 }
-
+.custom-select {
+  color: $color-muted !important;
+}

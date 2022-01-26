@@ -66,6 +66,7 @@ h2,
 
 h3,
 .h3 {
+  font-family: $font-primary;
   font-size: $h3;
   @include tablet {
     font-size: $h3-md;
