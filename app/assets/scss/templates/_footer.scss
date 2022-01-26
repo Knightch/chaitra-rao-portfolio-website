@@ -18,6 +18,9 @@ footer {
 }
 .footer-link {
   margin-bottom: 10px;
+  @include mobile{
+    margin-top: 16px;
+  }
   li:not(:last-child) {
     margin-bottom: 10px;
   }
@@ -38,6 +41,9 @@ footer {
       -webkit-text-decoration-color: rgba($white, 0.8);
       -moz-text-decoration-color: rgba($white, 0.8);
     }
+  }
+  .title{
+    font-size: 12px;
   }
 }
 

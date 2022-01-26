@@ -1735,6 +1735,12 @@ footer {
   margin-bottom: 10px;
 }
 
+@media (max-width: 575px) {
+  .footer-link {
+    margin-top: 16px;
+  }
+}
+
 .footer-link li:not(:last-child) {
   margin-bottom: 10px;
 }
@@ -1758,6 +1764,10 @@ footer {
   text-decoration-color: rgba(255, 255, 255, 0.8);
   -webkit-text-decoration-color: rgba(255, 255, 255, 0.8);
   -moz-text-decoration-color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-link .title {
+  font-size: 12px;
 }
 
 .decor-text::after {
