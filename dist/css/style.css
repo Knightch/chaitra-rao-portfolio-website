@@ -873,6 +873,10 @@ a.text-dark:hover,
   overflow: initial;
 }
 
+.bold-font {
+  font-family: "CentraNo2Medium";
+}
+
 .text-circleed {
   position: relative;
 }
@@ -1701,8 +1705,7 @@ footer {
 }
 
 .footer-bottom {
-  border: 1px solid #00122c;
-  background-color: #00122c;
+  margin-top: 35px;
 }
 
 .footer-alt {
@@ -1762,8 +1765,8 @@ footer {
   content: "Coming soon";
   position: relative;
   top: -3px;
-  color: #01CFC9;
-  font-family: 'Nanum Pen Script', cursive;
+  color: #01cfc9;
+  font-family: "Nanum Pen Script", cursive;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;

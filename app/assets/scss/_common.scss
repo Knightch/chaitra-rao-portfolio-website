@@ -354,7 +354,9 @@ a.text-dark:hover {
 .overflow-initial {
   overflow: initial;
 }
-
+.bold-font{
+  font-family: $font-primary-normal;
+}
 .text-circleed {
   position: relative;
   svg {

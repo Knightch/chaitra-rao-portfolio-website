@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
 // footer style
 footer {
   background-color: $footer-color;
 }
 .footer-bottom {
-  border: 1px solid $footer-color;
-  background-color: $footer-color;
+  margin-top: 35px;
 }
 .footer-alt {
   padding: 130px 0;
@@ -18,7 +17,7 @@ footer {
 }
 .footer-link {
   margin-bottom: 10px;
-  @include mobile{
+  @include mobile {
     margin-top: 16px;
   }
   li:not(:last-child) {
@@ -42,7 +41,7 @@ footer {
       -moz-text-decoration-color: rgba($white, 0.8);
     }
   }
-  .title{
+  .title {
     font-size: 12px;
     color: $white;
   }
@@ -53,15 +52,15 @@ footer {
     content: "Coming soon";
     position: relative;
     top: -3px;
-    color: #01CFC9;
-    font-family: 'Nanum Pen Script', cursive;
+    color: #01cfc9;
+    font-family: "Nanum Pen Script", cursive;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    @include desktop{
+    @include desktop {
       font-size: 13px;
     }
   }
