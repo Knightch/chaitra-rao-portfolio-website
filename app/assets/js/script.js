@@ -36,7 +36,7 @@
 		var t;
 		t = 0, window.onscroll = function () {
 			var e = document.documentElement.scrollTop || document.body.scrollTop;
-			300 < e && t <= e ? (t = e, i(".navigation").addClass("header-unpinned")) : (t = e, i(".navigation").removeClass("header-unpinned"))
+			0 < e && t <= e ? (t = e, i(".navigation").addClass("header-unpinned")) : (t = e, i(".navigation").removeClass("header-unpinned"))
 		}, i('[data-toggle="navbar-menu"]').on("click", function () {
 			i(this).attr("data-navbar", "visible"), i(".navigation").addClass("visible"), i("#navbar-menu").addClass("show"), i(".sidenav-overlay").addClass("show")
 		}), i('[data-toggle="navbar-menu-close"], .sidenav-overlay').on("click", function () {
