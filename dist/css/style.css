@@ -3,8 +3,15 @@
 @font-face {
   font-family: "CentraNo2";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   src: url("../../fonts/CentraNo2.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "CentraNo2Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../fonts/CentraNo2Medium.otf") format("opentype");
 }
 
 @font-face {
@@ -293,7 +300,7 @@ h6,
 }
 
 .btn-org {
-  background: #FF6846;
+  background: #ff6846;
   color: #fff;
   font-weight: 600;
   transition: all 200ms ease-in-out;
@@ -1170,7 +1177,7 @@ a.text-dark:hover,
 }
 
 .custom-select {
-  color: #6C757D !important;
+  color: #6c757d !important;
 }
 
 .team-group-carousel .swiper-container {
@@ -1602,7 +1609,7 @@ a.text-dark:hover,
 }
 
 .blog-card .card-tag a {
-  color: #6C757D;
+  color: #6c757d;
 }
 
 .blog-card .card-tag a:hover {
