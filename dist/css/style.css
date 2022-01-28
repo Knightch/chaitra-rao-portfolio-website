@@ -805,6 +805,7 @@ textarea.form-control {
 .content h6,
 .content .h6 {
   font-weight: 600;
+  font-family: "CentraNo2Medium";
 }
 
 .font-weight-700 {
@@ -836,6 +837,10 @@ a.text-primary:hover {
 .content h6:not(.text-white),
 .content .h6:not(.text-white) {
   color: #000;
+}
+
+.black {
+  color: #000 !important;
 }
 
 a.text-dark:hover,

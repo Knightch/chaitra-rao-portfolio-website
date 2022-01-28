@@ -311,6 +311,7 @@ textarea.form-control {
 }
 .font-weight-600 {
   font-weight: 600;
+  font-family: $font-primary-normal;
 }
 .font-weight-700 {
   font-weight: 700;
@@ -328,6 +329,9 @@ a.text-primary:hover {
 
 .text-dark {
   color: $black;
+}
+.black{
+  color: $black !important;
 }
 a.text-dark:hover {
   color: $color-primary;
