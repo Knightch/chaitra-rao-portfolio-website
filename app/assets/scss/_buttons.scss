@@ -50,7 +50,7 @@
   &.text-dark {
     &::before,
     &::after {
-      background-color: $color-dark;
+      background-color: $black;
     }
     &::before {
       background-color: rgba($color-primary, 0.7);

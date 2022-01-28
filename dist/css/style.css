@@ -176,7 +176,7 @@ h6,
 .content .line-link.h5:not(.text-white)::after,
 .content h6.line-link:not(.text-white)::after,
 .content .line-link.h6:not(.text-white)::after {
-  background-color: #f0f3f7;
+  background-color: #000;
 }
 
 .line-link.text-dark::before, .content h1.line-link:not(.text-white)::before,
