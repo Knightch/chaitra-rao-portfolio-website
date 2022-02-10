@@ -21,7 +21,6 @@
   svg {
     height: 22px;
     width: 22px;
-    fill: $white;
     transition: opacity .3s;
   }
   &:hover svg {
@@ -34,7 +33,7 @@
   display: none;
   text-align: right;
   margin-bottom: 15px;
-  color: $white;
+  color: $black;
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1px;
@@ -60,7 +59,7 @@
   }
 }
 .navbar-light [data-toggle="navbar-menu-close"] {
-  color: $color-dark;
+  color: $black;
 }
 
 .sidenav-overlay {
@@ -371,4 +370,7 @@
       display: block;
     }
   }
+}
+.mx-auto{
+  margin-right: 48px !important;
 }

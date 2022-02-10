@@ -21,6 +21,20 @@
   src: url("../../fonts/Clearface-regular.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "ApercuMedium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../fonts/ApercuMedium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "ApercuRegular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/ApercuRegular.otf") format("opentype");
+}
+
 body {
   font-family: "CentraNo2";
   font-weight: 400;
@@ -1189,6 +1203,10 @@ a.text-dark:hover,
   color: #6c757d !important;
 }
 
+.aper_fonts {
+  font-family: "ApercuRegular";
+}
+
 .team-group-carousel .swiper-container {
   cursor: -webkit-grab;
   cursor: grab;
@@ -1807,7 +1825,6 @@ footer {
 .navbar-toggler svg {
   height: 22px;
   width: 22px;
-  fill: #fff;
   transition: opacity .3s;
 }
 
@@ -1819,7 +1836,7 @@ footer {
   display: none;
   text-align: right;
   margin-bottom: 15px;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1px;
@@ -1851,7 +1868,7 @@ footer {
 }
 
 .navbar-light [data-toggle="navbar-menu-close"] {
-  color: #f0f3f7;
+  color: #000;
 }
 
 .sidenav-overlay {
@@ -2185,6 +2202,10 @@ footer {
 
 .navigation .navbar-expanded [data-toggle="navbar-menu-close"] {
   display: block;
+}
+
+.mx-auto {
+  margin-right: 48px !important;
 }
 
 .portfolio-card {
